@@ -4,6 +4,7 @@ import React, { Component } from "react";
 class Map extends Component {
   constructor(props) {
     super(props);
+    this.mapRef = React.createRef();
   }
 
   componentDidMount() {
@@ -38,7 +39,7 @@ class Map extends Component {
   }
 
   render() {
-    return <div />;
+    return <div ref={this.mapRef} />;
   }
 }
 
