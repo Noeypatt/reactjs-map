@@ -39,7 +39,7 @@ class Map extends Component {
   }
 
   render() {
-    return <div ref={this.mapRef} />;
+    return <div ref={this.mapRef} style={{ width: 500, height: 500 }} />;
   }
 }
 
