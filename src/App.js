@@ -1,10 +1,9 @@
 import React from "react";
-import Map from "./components/Map";
+import Map from "./components/index";
 
 function App() {
   return (
     <div className="warp-app">
-      <h1>Maptalks</h1>
       <Map />
     </div>
   );

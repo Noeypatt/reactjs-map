@@ -1,7 +1,7 @@
 import * as maptalks from "maptalks";
 import React, { Component } from "react";
 
-class Map extends Component {
+class MapTalks extends Component {
   constructor(props) {
     super(props);
     this.mapRef = React.createRef();
@@ -43,4 +43,4 @@ class Map extends Component {
   }
 }
 
-export default Map;
+export default MapTalks;
